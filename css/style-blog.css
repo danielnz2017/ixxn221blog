@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+body {
+  background-color: rgb(218, 216, 216);
+}
+
+
+
+
+
+nav{
+	width: 100%;
+	height: 60px;
+	position: relative;
+	background-color: rgb(206, 206, 206);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav a, nav h3{
+	float: left;
+	margin: 0px;
+	line-height: 60px;
+	margin-left: 1em;
+	margin-right: 1em;
+	text-decoration: none;
+}
+
+nav a{
+
+	position: relative;
+	margin-left: 490px;
+	color: #000000;
+	font-size: 20px;
+
+	font-family: 'Merienda One', cursive;
+}
+
+nav a:hover{
+	text-decoration: underline; /* Hover styles to let people know they can click it */
+	background-color: rgba(117, 117, 117, 0.432);
+    color: rgb(255, 255, 255);
+}
+
+
+
+.hd h1{
+
+	
+
+		text-align: center;
+		font-family: 'Fondamento', cursive;
+		font-size: 50px;
+		
+	
+		
+		color: rgb(0, 0, 0); /* more readable on an orange background */
+		padding-top: 50px;
+		padding-bottom: 20px;
+
+
+
+
+
+}
+
+
+
+
+.all-blogs-wrapper {
+  padding-top: 40px;
+  width: 57vw;
+  margin: auto;
+}
+
+.blog-card-wrapper {
+  margin-bottom: 40px;
+  border: transparent;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  -webkit-box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
+  box-shadow: 5px 4px 8px 1px rgba(0, 0, 0, 0.21);
+}
+
+.image-wrapper {
+  width: 100%;
+  height: 310px;
+  overflow: hidden;
+  border-radius: 10px 10px 0 0;
+}
+
+.blog-image {
+  width: 100%;
+}
+
+.blog-content {
+  margin: 20px;
+}
+
+.information-heading {
+  width: 100%;
+  height: 40px;
+}
+
+.date {
+  float: left;
+}
+
+.subject {
+  float: right;
+}
+
+.blog-heading {
+  padding-bottom: 30px;
+}
+
+.blog-details {
+  padding-bottom: 30px;
+}
