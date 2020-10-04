@@ -1,14 +1,576 @@
 *{
 	box-sizing: border-box; 
+	font-family: 'PT Serif', serif;
+	
 	
 }
 
 
-body{
+
+html, body{
+	
+
 	margin: 0px; 
-	font-family: sans-serif;
-	background-color: rgb(218, 216, 216);
+	
+	background: #A1C3D1;
+	overflow: hidden;
+
 }
+
+
+
+
+	
+	/* Navigation bar */
+	nav{
+		width: 100%;
+		height: 60px;
+		position: relative;
+		/* background-color: rgb(230, 230, 230); */
+		background-color: #f0f0f0ef;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	
+	nav a, nav h3{
+		float: left;
+		margin: 0px;
+		line-height: 60px;
+		margin-left: 1em;
+		margin-right: 1em;
+		text-decoration: none;
+		
+	}
+	
+	nav a{
+		position: relative;
+		float: left;
+		/* margin-left: 490px; */
+		color: #000000;
+		font-size: 20px;
+		
+	
+	}
+	
+	
+	
+	nav a:hover{
+		text-decoration: underline; /* Hover styles to let people know they can click it */
+		/* background-color: rgba(117, 117, 117, 0.432); */
+		color: #0f63ff;
+	}
+	
+
+	
+	/* Main body */
+	
+		.mainbod{
+		
+		
+			/* background-color: rgba(156, 156, 156, 0.575); */
+		
+			position: relative;
+			margin-top: 100px;
+			margin-left: 230px;
+			margin-bottom: 185px;
+		
+			width: 1200px;
+			height: 500px;
+		
+			/* text-align: center; */
+		
+			
+	}
+	
+	
+	.dv-1{
+	
+	
+		position: absolute;
+		top: 60%;
+		left: 42%;
+		transform: translate(-42%, -50%);
+		font-size: 100px;
+		
+		
+		color: #ffffff;
+		text-shadow: 2px 2px #8a8383;
+		text-align: center;
+		width: 31.7cm;
+	
+	}
+
+
+
+	.dv-2{
+
+
+	position: absolute;
+    top: 75%;
+	left: 65%;
+    transform: translate(-42%, -50%);
+    font-size: 30px;
+    
+	color: #ffffff;
+	text-shadow: 2px 2px #8a8383;
+	text-align: center;
+	width: 31.7cm;
+
+
+	}
+	
+	
+	
+	.mycan{
+	
+	
+		
+		background-color: #f172a1;
+		width: 120vw;
+		height: 80vh;
+		  transform: rotate(60deg);
+		  left: 20vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-2{
+	
+		
+	
+		background-color: #ad2e95;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 25vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-3{
+	
+		
+		background-color: #b39bca;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 28vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-4{
+	
+	
+		background-color: #e64398;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 32vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-5{
+	
+	
+		background-color: #85b7ce;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 35vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-6{
+	
+	
+		background-color: #ad2e95;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 37vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-7{
+	
+	
+		background-color: #b39bca;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 40vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-8{
+	
+	
+		background-color: #e64398;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 43vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-9{
+	
+	
+		
+		background-color: #f172a1;
+		width: 120vw;
+		height: 80vh;
+		  transform: rotate(60deg);
+		  left: 45vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-10{
+	
+		
+	
+		background-color: #ad2e95;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 48vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-11{
+	
+		
+		background-color: #b39bca;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 50vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-12{
+	
+	
+		background-color: #e64398;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 51vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+
+	
+	.mycan-op{
+	
+		
+		background-color: #f172a1;
+		width: 120vw;
+		  height: 80vh;
+		  transform: rotate(-60deg);
+		  left: 20vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-op-2{
+	
+		
+		background-color: #ad2e96da;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 25vw;
+		position: absolute;
+		
+	
+	}
+	
+	
+	.mycan-op-3{
+	
+		
+		background-color: #b39bcab9;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 28vw;
+		position: absolute;
+		
+	
+	}
+	
+	.mycan-op-4{
+	
+	
+		background-color: #e64397ab;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 32vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-op-5{
+	
+	
+		background-color: #85b7ce7a;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 35vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-op-6{
+	
+	
+		background-color: #ad2e9669;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 37vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-op-7{
+	
+	
+		background-color: #b39bca5d;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 40vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-op-8{
+	
+	
+		background-color: #e643974d;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 43vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-op-9{
+	
+	
+		background-color: #A1C3D1;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 45vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+
+	
+	.modal{
+	
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%) scale(0) ;
+		/* transition: 200ms ease-in-out; */
+		/* border: 1px solid black; */
+		border-radius: 10px;
+		z-index: 10;
+		background-color: white;
+		width: 500px;
+		max-width: 80%;
+	  }
+	  
+	  
+	  .modal.active{
+	  
+		transform: translate(-50%, -50%) scale(1);
+	  
+	  }
+	  
+	  .modal-header{
+	  
+	  
+		padding: 10px 15px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		/* border-bottom: 1px solid black; */
+	  }
+	  
+	  .modal-header .title{
+	  
+	  
+	  
+		font-size: 1.25rem;
+		font-weight: bold;
+	  }
+	  
+	  
+	  .modal-header .close-button{
+	  
+	  
+	  
+		cursor: pointer;
+		border: none;
+		outline: none;
+		background: none;
+		font-size: 1.25rem;
+		font-weight: bold;
+	  
+		color: #ffffff;
+		box-shadow: 0 5px 15px #fc6c6c;
+		background-color: rgb(214, 63, 63);
+	  
+	  
+	  }
+	  
+	  .close-button:hover{
+	  
+		-ms-transform: scale(1.1); 
+		-webkit-transform: scale(1.1); 
+		transform: scale(1.1); 
+		background-color: #ff0000;
+		box-shadow: 0 5px 15px #f59494;
+	  
+	  
+	  }
+	  
+	  .modal-body{
+	  
+	  
+	  
+		padding: 10px 15px;
+		
+	  
+	  }
+	  
+	  
+	  #overlay{
+	  
+	  
+		position: fixed;
+		/* transition: 200ms ease-in-out; */
+		opacity: 0;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(0,0, 0, .5);
+		pointer-events: none;
+	  
+	  }
+	  
+	  #overlay.active{
+	  
+		opacity: 1;
+		pointer-events: all;
+	  
+	  }
+	  
+	
+	  
+	  .preview-bt{
+	  
+	  
+		background-color: #356296;
+		color: white;
+		border-radius: 5px;
+		font-size: 1.25rem;
+		font-weight: bold;
+		
+		position: absolute;
+		left: 48%;
+		
+	  
+	  
+	  }
+	  .preview-bt:hover {
+		-ms-transform: scale(1.1); 
+		-webkit-transform: scale(1.1); 
+		transform: scale(1.1); 
+		background-color: #618ddd;
+		box-shadow: 0 5px 15px #a4bff7;
+	  }
+	
+	
+
+
+
+	/* ---------------------------------------------------- */
+	/* ---------------------------------------------------- */
+	/* ---------------------------------------------------- */
+	/* ---------------------------------------------------- */
+	/* ---------------------------------------------------- */
+	/* ---------------------------------------------------- */
+
+
+
+@media only screen and (max-width: 800px){
 
 
 /* Navigation bar */
@@ -16,7 +578,9 @@ nav{
 	width: 100%;
 	height: 60px;
 	position: relative;
-	background-color: rgb(206, 206, 206);
+	right: 15%;
+	/* background-color: rgb(230, 230, 230); */
+	background-color: #f0f0f0ef;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -29,60 +593,390 @@ nav a, nav h3{
 	text-decoration: none;
 }
 
-nav a{
 
+nav a{
 	position: relative;
-	margin-left: 490px;
+	float: left;
+	/* margin-left: 490px; */
 	color: #000000;
 	font-size: 20px;
+	
 
-	font-family: 'Merienda One', cursive;
 }
+
+.abt {
+
+	float: right;
+
+
+} 
 
 nav a:hover{
 	text-decoration: underline; /* Hover styles to let people know they can click it */
-	background-color: rgba(117, 117, 117, 0.432);
-    color: rgb(255, 255, 255);
+	/* background-color: rgba(117, 117, 117, 0.432); */
+    color: #0f63ff;
 }
 
 
 
 /* Main body */
 
-
-
 .mainbod{
-
-
-	background-color: rgb(156, 156, 156);
-
-	position: relative;
-	margin-top: 100px;
-	margin-left: 230px;
-	margin-bottom: 185px;
-
-	width: 1200px;
-	height: 500px;
-
-	/* text-align: center; */
-
 	
+	
+		/* background-color: rgba(156, 156, 156, 0.575); */
+	
+		position: relative;
+		margin-top: 100px;
+		margin-left: 230px;
+		margin-bottom: 185px;
+	
+		width: 500px;
+		height: 500px;
+	
+		/* text-align: center; */
+	
+		
 }
 
-.mainbod div{
+
+.dv-1{
 
 
 	position: absolute;
-    top: 50%;
-	left: 42%;
+    top: 60%;
+	left: 15%;
     transform: translate(-42%, -50%);
-    font-size: 60px;
-    font-family: 'Pacifico', cursive;
-	color: aliceblue;
-	background-color: rgb(104, 104, 104);
+    font-size: 50px;
+    
+	color: #ffffff;
+	text-shadow: 2px 2px #8a8383;
 	text-align: center;
 	width: 31.7cm;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+
+
+.dv-2{
+
+
+	position: absolute;
+    top: 69%;
+	left: 55%;
+    transform: translate(-42%, -50%);
+    font-size: 20px;
+    
+	color: #ffffff;
+	text-shadow: 2px 2px #8a8383;
+	text-align: center;
+	width: 31.7cm;
+
+
+	}
+
+
+.mycan{
+
+
+	
+	background-color: #f172a1;
+	width: 120vw;
+	height: 80vh;
+  	transform: rotate(60deg);
+  	left: 20vw;
+	position: absolute;
+	
+
+
+}
+
+
+.mycan-2{
+
+	
+
+	background-color: #ad2e95;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(60deg);
+	left: 25vw;
+	position: absolute;
+	
+
+
+}
+
+
+.mycan-3{
+
+	
+	background-color: #b39bca;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(60deg);
+	left: 28vw;
+	position: absolute;
+	
+
+
+}
+
+.mycan-4{
+
+
+	background-color: #e64398;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(60deg);
+	left: 32vw;
+	position: absolute;
+	
+
+
+}
+
+.mycan-5{
+
+
+	background-color: #85b7ce;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(60deg);
+	left: 35vw;
+	position: absolute;
+	
+
+
+}
+
+.mycan-6{
+
+
+	background-color: #ad2e95;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(60deg);
+	left: 37vw;
+	position: absolute;
+	
+
+
+}
+
+.mycan-7{
+
+
+	background-color: #b39bca;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(60deg);
+	left: 40vw;
+	position: absolute;
+	
+
+
+}
+
+.mycan-8{
+
+
+	background-color: #e64398;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(60deg);
+	left: 43vw;
+	position: absolute;
+	
+
+
+}
+
+
+.mycan-9{
+
+
+	
+	background-color: #f172a1;
+	width: 120vw;
+	height: 80vh;
+  	transform: rotate(60deg);
+  	left: 45vw;
+	position: absolute;
+	
+
+
+}
+
+.mycan-10{
+
+	
+
+	background-color: #ad2e95;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(60deg);
+	left: 48vw;
+	position: absolute;
+	
+
+
+}
+
+
+.mycan-11{
+
+	
+	background-color: #b39bca;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(60deg);
+	left: 50vw;
+	position: absolute;
+	
+
+
+}
+
+
+.mycan-12{
+
+
+	background-color: #e64398;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(60deg);
+	left: 51vw;
+	position: absolute;
+	
+
+
+}
+
+
+
+.mycan-op{
+
+	
+	background-color: #f172a1;
+	width: 120vw;
+  	height: 80vh;
+  	transform: rotate(-60deg);
+  	left: 20vw;
+	position: absolute;
+	
+
+
+}
+
+.mycan-op-2{
+
+	
+	background-color: #ad2e96da;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(-60deg);
+	left: 25vw;
+	position: absolute;
+	
+
+}
+
+
+.mycan-op-3{
+
+	
+	background-color: #b39bcab9;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(-60deg);
+	left: 28vw;
+	position: absolute;
+	
+
+}
+
+.mycan-op-4{
+
+
+	background-color: #e64397ab;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(-60deg);
+	left: 32vw;
+	position: absolute;
+	
+
+
+}
+
+.mycan-op-5{
+
+
+	background-color: #85b7ce7a;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(-60deg);
+	left: 35vw;
+	position: absolute;
+	
+
+
+}
+
+
+.mycan-op-6{
+
+
+	background-color: #ad2e9669;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(-60deg);
+	left: 37vw;
+	position: absolute;
+	
+
+
+}
+
+
+.mycan-op-7{
+
+
+	background-color: #b39bca5d;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(-60deg);
+	left: 40vw;
+	position: absolute;
+	
+
+
+}
+
+
+.mycan-op-8{
+
+
+	background-color: #e643974d;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(-60deg);
+	left: 43vw;
+	position: absolute;
+	
+
+
+}
+
+.mycan-op-9{
+
+
+	background-color: #A1C3D1;
+	width: 120vw;
+  	height: 80vh;
+	transform: rotate(-60deg);
+	left: 45vw;
+	position: absolute;
 	
 
 
@@ -91,30 +985,681 @@ nav a:hover{
 
 
 
+.modal{
 
-/* footer */
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%) scale(0) ;
+	/* transition: 200ms ease-in-out; */
+	/* border: 1px solid black; */
+	border-radius: 10px;
+	z-index: 10;
+	background-color: white;
+	width: 500px;
+	max-width: 80%;
+  }
+  
+  
+  .modal.active{
+  
+	transform: translate(-50%, -50%) scale(1);
+  
+  }
+  
+  .modal-header{
+  
+  
+	padding: 10px 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	/* border-bottom: 1px solid black; */
+  }
+  
+  .modal-header .title{
+  
+  
+  
+	font-size: 1.25rem;
+	font-weight: bold;
+  }
+  
+  
+  .modal-header .close-button{
+  
+  
+  
+	cursor: pointer;
+	border: none;
+	outline: none;
+	background: none;
+	font-size: 1.25rem;
+	font-weight: bold;
+  
+	color: #ffffff;
+	box-shadow: 0 5px 15px #fc6c6c;
+	background-color: rgb(214, 63, 63);
+  
+  
+  }
+  
+  .close-button:hover{
+  
+	-ms-transform: scale(1.1); 
+	-webkit-transform: scale(1.1); 
+	transform: scale(1.1); 
+	background-color: #ff0000;
+	box-shadow: 0 5px 15px #f59494;
+  
+  
+  }
+  
+  .modal-body{
+  
+  
+  
+	padding: 10px 15px;
+  
+  }
+  
+  
+  #overlay{
+  
+  
+	position: fixed;
+	/* transition: 200ms ease-in-out; */
+	opacity: 0;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0,0, 0, .5);
+	pointer-events: none;
+  
+  }
+  
+  #overlay.active{
+  
+	opacity: 1;
+	pointer-events: all;
+  
+  }
+  
 
-footer{
-
-
-	height: 94px;
-	position: relative;
-	background-color: rgb(114, 114, 114);
-	box-shadow: 0 0px 8px 12px rgba(0, 0, 0, 0.2), 0px 0px 0px 0px rgba(0, 0, 0, 0.19);
-
-
-}
-
-
-footer div{
-
-
-	font-size: 12px;
+  
+  .preview-bt{
+  
+  
+	background-color: #356296;
 	color: white;
+	border-radius: 5px;
+	font-size: 1.25rem;
+	font-weight: bold;
 	position: absolute;
-	bottom: 8px;
-	left: 16px;
-	font-family: 'Gloria Hallelujah', cursive;
+	left: 45%;
+  
+  
+  }
 
+  .preview-bt:hover {
 
+	-ms-transform: scale(1.1); 
+	-webkit-transform: scale(1.1); 
+	transform: scale(1.1); 
+	background-color: #618ddd;
+	box-shadow: 0 5px 15px #a4bff7;
+
+  }
 }
+
+
+
+	/* ---------------------------------------------------- */
+	/* ---------------------------------------------------- */
+	/* ---------------------------------------------------- */
+	/* ---------------------------------------------------- */
+	/* ---------------------------------------------------- */
+	/* ---------------------------------------------------- */
+
+@media only screen and (max-width: 500px){
+
+	
+	/* Navigation bar */
+	nav{
+		width: 34%;
+		height: 12%;
+		position: relative;
+		/* background-color: rgb(230, 230, 230); */
+		background-color: #f0f0f0ef;
+		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	}
+	
+	nav a, nav h3{
+		float: left;
+		margin: 0px;
+		line-height: 60px;
+		margin-left: 1em;
+		margin-right: 1em;
+		text-decoration: none;
+		
+	}
+	
+	nav a{
+		position: relative;
+		float: left;
+		/* margin-left: 490px; */
+		color: #000000;
+		font-size: 20px;
+		
+	
+	}
+	
+	
+	
+	nav a:hover{
+		text-decoration: underline; /* Hover styles to let people know they can click it */
+		/* background-color: rgba(117, 117, 117, 0.432); */
+		color: #ff1900;
+	}
+	
+
+	
+	/* Main body */
+	
+		.mainbod{
+		
+		
+			/* background-color: rgba(156, 156, 156, 0.575); */
+		
+			position: relative;
+			margin-top: 100px;
+			margin-left: 230px;
+			margin-bottom: 185px;
+		
+			width: 1200px;
+			height: 500px;
+		
+			/* text-align: center; */
+		
+			
+	}
+	
+	
+	.dv-1{
+	
+	
+		position: absolute;
+		top: 60%;
+		left: -6%;
+		transform: translate(-42%, -50%);
+		font-size: 29px;
+		
+		
+		color: #ffffff;
+		text-shadow: 2px 2px #8a8383;
+		text-align: center;
+		width: 31.7cm;
+	
+	}
+	
+
+
+	.dv-2{
+
+
+		position: absolute;
+		top: 66%;
+		left: -6%;
+		transform: translate(-42%, -50%);
+		font-size: 15px;
+		
+		color: #ffffff;
+		text-shadow: 2px 2px #8a8383;
+		text-align: center;
+		width: 31.7cm;
+	
+	
+	}
+	
+	
+	
+	
+	
+	.mycan{
+	
+	
+		
+		background-color: #f172a1;
+		width: 120vw;
+		height: 80vh;
+		  transform: rotate(60deg);
+		  left: 20vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-2{
+	
+		
+	
+		background-color: #ad2e95;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 25vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-3{
+	
+		
+		background-color: #b39bca;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 28vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-4{
+	
+	
+		background-color: #e64398;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 32vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-5{
+	
+	
+		background-color: #85b7ce;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 35vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-6{
+	
+	
+		background-color: #ad2e95;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 37vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-7{
+	
+	
+		background-color: #b39bca;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 40vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-8{
+	
+	
+		background-color: #e64398;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 43vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-9{
+	
+	
+		
+		background-color: #f172a1;
+		width: 120vw;
+		height: 80vh;
+		  transform: rotate(60deg);
+		  left: 45vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-10{
+	
+		
+	
+		background-color: #ad2e95;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 48vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-11{
+	
+		
+		background-color: #b39bca;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 50vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-12{
+	
+	
+		background-color: #e64398;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(60deg);
+		left: 51vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+
+	
+	.mycan-op{
+	
+		
+		background-color: #f172a1;
+		width: 120vw;
+		  height: 80vh;
+		  transform: rotate(-60deg);
+		  left: 20vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-op-2{
+	
+		
+		background-color: #ad2e96da;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 25vw;
+		position: absolute;
+		
+	
+	}
+	
+	
+	.mycan-op-3{
+	
+		
+		background-color: #b39bcab9;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 28vw;
+		position: absolute;
+		
+	
+	}
+	
+	.mycan-op-4{
+	
+	
+		background-color: #e64397ab;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 32vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-op-5{
+	
+	
+		background-color: #85b7ce7a;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 35vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-op-6{
+	
+	
+		background-color: #ad2e9669;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 37vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-op-7{
+	
+	
+		background-color: #b39bca5d;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 40vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+	.mycan-op-8{
+	
+	
+		background-color: #e643974d;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 43vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	.mycan-op-9{
+	
+	
+		background-color: #A1C3D1;
+		width: 120vw;
+		  height: 80vh;
+		transform: rotate(-60deg);
+		left: 45vw;
+		position: absolute;
+		
+	
+	
+	}
+	
+	
+
+	
+	.modal{
+	
+		position: fixed;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%) scale(0) ;
+		/* transition: 200ms ease-in-out; */
+		/* border: 1px solid black; */
+		border-radius: 10px;
+		z-index: 10;
+		background-color: white;
+		width: 500px;
+		max-width: 80%;
+	  }
+	  
+	  
+	  .modal.active{
+	  
+		transform: translate(-50%, -50%) scale(1);
+	  
+	  }
+	  
+	  .modal-header{
+	  
+	  
+		padding: 10px 15px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		/* border-bottom: 1px solid black; */
+	  }
+	  
+	  .modal-header .title{
+	  
+	  
+	  
+		font-size: 1.25rem;
+		font-weight: bold;
+	  }
+	  
+	  
+	  .modal-header .close-button{
+	  
+	  
+	  
+		cursor: pointer;
+		border: none;
+		outline: none;
+		background: none;
+		font-size: 1.25rem;
+		font-weight: bold;
+	  
+		color: #ffffff;
+		box-shadow: 0 5px 15px #fc6c6c;
+		background-color: rgb(214, 63, 63);
+	  
+	  
+	  }
+	  
+	  .close-button:hover{
+	  
+		-ms-transform: scale(1.1); 
+		-webkit-transform: scale(1.1); 
+		transform: scale(1.1); 
+		background-color: #ff0000;
+		box-shadow: 0 5px 15px #f59494;
+	  
+	  
+	  }
+	  
+	  .modal-body{
+	  
+	  
+	  
+		padding: 10px 15px;
+		
+	  
+	  }
+	  
+	  
+	  #overlay{
+	  
+	  
+		position: fixed;
+		/* transition: 200ms ease-in-out; */
+		opacity: 0;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		background-color: rgba(0,0, 0, .5);
+		pointer-events: none;
+	  
+	  }
+	  
+	  #overlay.active{
+	  
+		opacity: 1;
+		pointer-events: all;
+	  
+	  }
+	  
+	
+	  
+	  .preview-bt{
+	
+		background-color: #356296;
+		color: white;
+		border-radius: 5px;
+		font-size: 1rem;
+		font-weight: bold;
+		
+		position: absolute;
+		left: 40%;
+	  }
+
+
+	  .preview-bt:hover {
+		-ms-transform: scale(1.1); 
+		-webkit-transform: scale(1.1); 
+		transform: scale(1.1); 
+		background-color: #618ddd;
+		box-shadow: 0 5px 15px #a4bff7;
+	  }
+	
+	}
