@@ -1,6 +1,7 @@
 *{
 	box-sizing: border-box; 
-	font-family: 'PT Serif', serif;
+	/* font-family: 'PT Serif', serif; */
+	font-family: 'Montserrat', sans-serif;
 	
 	
 }
@@ -479,7 +480,7 @@ html, body{
 		border: none;
 		outline: none;
 		background: none;
-		font-size: 1.25rem;
+		font-size: 1rem;
 		font-weight: bold;
 	  
 		color: #ffffff;
@@ -579,7 +580,6 @@ nav{
 	height: 60px;
 	position: relative;
 	right: 15%;
-	/* background-color: rgb(230, 230, 230); */
 	background-color: #f0f0f0ef;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -597,7 +597,6 @@ nav a, nav h3{
 nav a{
 	position: relative;
 	float: left;
-	/* margin-left: 490px; */
 	color: #000000;
 	font-size: 20px;
 	
@@ -612,8 +611,7 @@ nav a{
 } 
 
 nav a:hover{
-	text-decoration: underline; /* Hover styles to let people know they can click it */
-	/* background-color: rgba(117, 117, 117, 0.432); */
+	text-decoration: underline;
     color: #0f63ff;
 }
 
@@ -624,7 +622,7 @@ nav a:hover{
 .mainbod{
 	
 	
-		/* background-color: rgba(156, 156, 156, 0.575); */
+	
 	
 		position: relative;
 		margin-top: 100px;
@@ -634,7 +632,7 @@ nav a:hover{
 		width: 500px;
 		height: 500px;
 	
-		/* text-align: center; */
+	
 	
 		
 }
@@ -675,324 +673,12 @@ nav a:hover{
 	}
 
 
-.mycan{
-
-
-	
-	background-color: #f172a1;
-	width: 120vw;
-	height: 80vh;
-  	transform: rotate(60deg);
-  	left: 20vw;
-	position: absolute;
-	
-
-
-}
-
-
-.mycan-2{
-
-	
-
-	background-color: #ad2e95;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(60deg);
-	left: 25vw;
-	position: absolute;
-	
-
-
-}
-
-
-.mycan-3{
-
-	
-	background-color: #b39bca;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(60deg);
-	left: 28vw;
-	position: absolute;
-	
-
-
-}
-
-.mycan-4{
-
-
-	background-color: #e64398;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(60deg);
-	left: 32vw;
-	position: absolute;
-	
-
-
-}
-
-.mycan-5{
-
-
-	background-color: #85b7ce;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(60deg);
-	left: 35vw;
-	position: absolute;
-	
-
-
-}
-
-.mycan-6{
-
-
-	background-color: #ad2e95;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(60deg);
-	left: 37vw;
-	position: absolute;
-	
-
-
-}
-
-.mycan-7{
-
-
-	background-color: #b39bca;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(60deg);
-	left: 40vw;
-	position: absolute;
-	
-
-
-}
-
-.mycan-8{
-
-
-	background-color: #e64398;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(60deg);
-	left: 43vw;
-	position: absolute;
-	
-
-
-}
-
-
-.mycan-9{
-
-
-	
-	background-color: #f172a1;
-	width: 120vw;
-	height: 80vh;
-  	transform: rotate(60deg);
-  	left: 45vw;
-	position: absolute;
-	
-
-
-}
-
-.mycan-10{
-
-	
-
-	background-color: #ad2e95;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(60deg);
-	left: 48vw;
-	position: absolute;
-	
-
-
-}
-
-
-.mycan-11{
-
-	
-	background-color: #b39bca;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(60deg);
-	left: 50vw;
-	position: absolute;
-	
-
-
-}
-
-
-.mycan-12{
-
-
-	background-color: #e64398;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(60deg);
-	left: 51vw;
-	position: absolute;
-	
-
-
-}
-
-
-
-.mycan-op{
-
-	
-	background-color: #f172a1;
-	width: 120vw;
-  	height: 80vh;
-  	transform: rotate(-60deg);
-  	left: 20vw;
-	position: absolute;
-	
-
-
-}
-
-.mycan-op-2{
-
-	
-	background-color: #ad2e96da;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(-60deg);
-	left: 25vw;
-	position: absolute;
-	
-
-}
-
-
-.mycan-op-3{
-
-	
-	background-color: #b39bcab9;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(-60deg);
-	left: 28vw;
-	position: absolute;
-	
-
-}
-
-.mycan-op-4{
-
-
-	background-color: #e64397ab;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(-60deg);
-	left: 32vw;
-	position: absolute;
-	
-
-
-}
-
-.mycan-op-5{
-
-
-	background-color: #85b7ce7a;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(-60deg);
-	left: 35vw;
-	position: absolute;
-	
-
-
-}
-
-
-.mycan-op-6{
-
-
-	background-color: #ad2e9669;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(-60deg);
-	left: 37vw;
-	position: absolute;
-	
-
-
-}
-
-
-.mycan-op-7{
-
-
-	background-color: #b39bca5d;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(-60deg);
-	left: 40vw;
-	position: absolute;
-	
-
-
-}
-
-
-.mycan-op-8{
-
-
-	background-color: #e643974d;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(-60deg);
-	left: 43vw;
-	position: absolute;
-	
-
-
-}
-
-.mycan-op-9{
-
-
-	background-color: #A1C3D1;
-	width: 120vw;
-  	height: 80vh;
-	transform: rotate(-60deg);
-	left: 45vw;
-	position: absolute;
-	
-
-
-}
-
-
-
-
 .modal{
 
 	position: fixed;
 	top: 50%;
 	left: 50%;
 	transform: translate(-50%, -50%) scale(0) ;
-	/* transition: 200ms ease-in-out; */
-	/* border: 1px solid black; */
 	border-radius: 10px;
 	z-index: 10;
 	background-color: white;
@@ -1014,7 +700,6 @@ nav a:hover{
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	/* border-bottom: 1px solid black; */
   }
   
   .modal-header .title{
@@ -1025,35 +710,7 @@ nav a:hover{
 	font-weight: bold;
   }
   
-  
-  .modal-header .close-button{
-  
-  
-  
-	cursor: pointer;
-	border: none;
-	outline: none;
-	background: none;
-	font-size: 1.25rem;
-	font-weight: bold;
-  
-	color: #ffffff;
-	box-shadow: 0 5px 15px #fc6c6c;
-	background-color: rgb(214, 63, 63);
-  
-  
-  }
-  
-  .close-button:hover{
-  
-	-ms-transform: scale(1.1); 
-	-webkit-transform: scale(1.1); 
-	transform: scale(1.1); 
-	background-color: #ff0000;
-	box-shadow: 0 5px 15px #f59494;
-  
-  
-  }
+
   
   .modal-body{
   
@@ -1068,7 +725,6 @@ nav a:hover{
   
   
 	position: fixed;
-	/* transition: 200ms ease-in-out; */
 	opacity: 0;
 	top: 0;
 	bottom: 0;
@@ -1130,7 +786,6 @@ nav a:hover{
 		width: 34%;
 		height: 12%;
 		position: relative;
-		/* background-color: rgb(230, 230, 230); */
 		background-color: #f0f0f0ef;
 		box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	}
@@ -1148,7 +803,6 @@ nav a:hover{
 	nav a{
 		position: relative;
 		float: left;
-		/* margin-left: 490px; */
 		color: #000000;
 		font-size: 20px;
 		
@@ -1158,8 +812,8 @@ nav a:hover{
 	
 	
 	nav a:hover{
-		text-decoration: underline; /* Hover styles to let people know they can click it */
-		/* background-color: rgba(117, 117, 117, 0.432); */
+		text-decoration: underline; 
+		
 		color: #ff1900;
 	}
 	
@@ -1170,8 +824,6 @@ nav a:hover{
 		.mainbod{
 		
 		
-			/* background-color: rgba(156, 156, 156, 0.575); */
-		
 			position: relative;
 			margin-top: 100px;
 			margin-left: 230px;
@@ -1179,8 +831,6 @@ nav a:hover{
 		
 			width: 1200px;
 			height: 500px;
-		
-			/* text-align: center; */
 		
 			
 	}
@@ -1224,317 +874,6 @@ nav a:hover{
 	
 	
 	
-	
-	
-	.mycan{
-	
-	
-		
-		background-color: #f172a1;
-		width: 120vw;
-		height: 80vh;
-		  transform: rotate(60deg);
-		  left: 20vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	
-	.mycan-2{
-	
-		
-	
-		background-color: #ad2e95;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(60deg);
-		left: 25vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	
-	.mycan-3{
-	
-		
-		background-color: #b39bca;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(60deg);
-		left: 28vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	.mycan-4{
-	
-	
-		background-color: #e64398;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(60deg);
-		left: 32vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	.mycan-5{
-	
-	
-		background-color: #85b7ce;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(60deg);
-		left: 35vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	.mycan-6{
-	
-	
-		background-color: #ad2e95;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(60deg);
-		left: 37vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	.mycan-7{
-	
-	
-		background-color: #b39bca;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(60deg);
-		left: 40vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	.mycan-8{
-	
-	
-		background-color: #e64398;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(60deg);
-		left: 43vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	
-	.mycan-9{
-	
-	
-		
-		background-color: #f172a1;
-		width: 120vw;
-		height: 80vh;
-		  transform: rotate(60deg);
-		  left: 45vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	.mycan-10{
-	
-		
-	
-		background-color: #ad2e95;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(60deg);
-		left: 48vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	
-	.mycan-11{
-	
-		
-		background-color: #b39bca;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(60deg);
-		left: 50vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	
-	.mycan-12{
-	
-	
-		background-color: #e64398;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(60deg);
-		left: 51vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	
-
-	
-	.mycan-op{
-	
-		
-		background-color: #f172a1;
-		width: 120vw;
-		  height: 80vh;
-		  transform: rotate(-60deg);
-		  left: 20vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	.mycan-op-2{
-	
-		
-		background-color: #ad2e96da;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(-60deg);
-		left: 25vw;
-		position: absolute;
-		
-	
-	}
-	
-	
-	.mycan-op-3{
-	
-		
-		background-color: #b39bcab9;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(-60deg);
-		left: 28vw;
-		position: absolute;
-		
-	
-	}
-	
-	.mycan-op-4{
-	
-	
-		background-color: #e64397ab;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(-60deg);
-		left: 32vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	.mycan-op-5{
-	
-	
-		background-color: #85b7ce7a;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(-60deg);
-		left: 35vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	
-	.mycan-op-6{
-	
-	
-		background-color: #ad2e9669;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(-60deg);
-		left: 37vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	
-	.mycan-op-7{
-	
-	
-		background-color: #b39bca5d;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(-60deg);
-		left: 40vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	
-	.mycan-op-8{
-	
-	
-		background-color: #e643974d;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(-60deg);
-		left: 43vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	.mycan-op-9{
-	
-	
-		background-color: #A1C3D1;
-		width: 120vw;
-		  height: 80vh;
-		transform: rotate(-60deg);
-		left: 45vw;
-		position: absolute;
-		
-	
-	
-	}
-	
-	
 
 	
 	.modal{
@@ -1543,8 +882,6 @@ nav a:hover{
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%) scale(0) ;
-		/* transition: 200ms ease-in-out; */
-		/* border: 1px solid black; */
 		border-radius: 10px;
 		z-index: 10;
 		background-color: white;
@@ -1566,7 +903,6 @@ nav a:hover{
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
-		/* border-bottom: 1px solid black; */
 	  }
 	  
 	  .modal-header .title{
@@ -1577,36 +913,7 @@ nav a:hover{
 		font-weight: bold;
 	  }
 	  
-	  
-	  .modal-header .close-button{
-	  
-	  
-	  
-		cursor: pointer;
-		border: none;
-		outline: none;
-		background: none;
-		font-size: 1.25rem;
-		font-weight: bold;
-	  
-		color: #ffffff;
-		box-shadow: 0 5px 15px #fc6c6c;
-		background-color: rgb(214, 63, 63);
-	  
-	  
-	  }
-	  
-	  .close-button:hover{
-	  
-		-ms-transform: scale(1.1); 
-		-webkit-transform: scale(1.1); 
-		transform: scale(1.1); 
-		background-color: #ff0000;
-		box-shadow: 0 5px 15px #f59494;
-	  
-	  
-	  }
-	  
+	
 	  .modal-body{
 	  
 	  
@@ -1621,7 +928,6 @@ nav a:hover{
 	  
 	  
 		position: fixed;
-		/* transition: 200ms ease-in-out; */
 		opacity: 0;
 		top: 0;
 		bottom: 0;
